@@ -5,14 +5,17 @@ hexbright.name=Hexbright
 hexbright.upload.protocol=arduino
 hexbright.upload.maximum_size=14336
 hexbright.upload.speed=19200
+hexbright.upload.tool=arduino:avrdude
 
 hexbright.bootloader.low_fuses=0xe2
 hexbright.bootloader.high_fuses=0xdd
 hexbright.bootloader.extended_fuses=0x00
-hexbright.bootloader.path=atmega
+#hexbright.bootloader.path=atmega
+#hexbright.bootloader.file=ATmegaBOOT_168_hexbright.hex
 hexbright.bootloader.file=ATmegaBOOT_168_hexbright.hex
 hexbright.bootloader.unlock_bits=0x3F
 hexbright.bootloader.lock_bits=0x0F
+hexbright.bootloader.tool=arduino:avrdude
 
 hexbright.build.mcu=atmega168
 hexbright.build.f_cpu=8000000L
